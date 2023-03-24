@@ -2,6 +2,7 @@ body {
   height: 718px;
   width: 375px;
 }
+
 section {
   position: absolute;
   height: 718px;
@@ -10,21 +11,21 @@ section {
 }
 
 #logo {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   display: flex;
   align-items: center;
   text-align: center;
-  display: flex;
   width: 76px;
   height: 20px;
   color: #6070ff;
   background: rgba(255, 255, 255, 1);
 }
+
 #header-text {
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -44,12 +45,13 @@ section {
   margin-bottom: 12px;
   margin-top: 110px;
 }
+
 #headline-paragraph {
   width: 327px;
   height: 146px;
   top: 276px;
   left: 24px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -61,10 +63,11 @@ section {
   margin-left: 24px;
   margin-right: 24px;
 }
+
 #contact-link {
   width: 117px;
   height: 24px;
-  font-family: Poppins;
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -76,6 +79,7 @@ section {
   margin-left: 24px;
   text-decoration: none;
 }
+
 #vector-1 {
   position: absolute;
   left: 16.67%;
@@ -84,6 +88,7 @@ section {
   margin-left: 270px;
   margin-top: -40px;
 }
+
 .contact-icons {
   display: flex;
   flex-direction: row;
