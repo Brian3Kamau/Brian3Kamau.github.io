@@ -11,7 +11,7 @@ section {
 }
 
 #logo {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -25,7 +25,7 @@ section {
 }
 
 #header-text {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -51,7 +51,7 @@ section {
   height: 146px;
   top: 276px;
   left: 24px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -67,7 +67,7 @@ section {
 #contact-link {
   width: 117px;
   height: 24px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -102,6 +102,7 @@ section {
 #my-logo {
   text-decoration: none;
 }
+
 .headline-section {
   background-image: url(./images/Background\ image.png.jpeg);
 }
