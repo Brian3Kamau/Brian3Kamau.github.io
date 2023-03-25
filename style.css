@@ -109,10 +109,6 @@ section {
   background: #dee0df;
 }
 
-.top-nav:hover {
-  color: rgb(75, 75, 241);
-}
-
 #top-nav a {
   padding: 14px 16px;
   display: block;
