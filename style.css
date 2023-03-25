@@ -109,11 +109,7 @@ section {
   background: #dee0df;
 }
 
-.top-nav #myLinks {
-  display: none;
-}
-
-.top-nav a:hover {
+.top-nav:hover {
   color: rgb(75, 75, 241);
 }
 
