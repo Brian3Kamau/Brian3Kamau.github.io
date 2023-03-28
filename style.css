@@ -209,7 +209,7 @@ section {
   padding-left: 16px;
   padding-right: 16px;
   position: absolute;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1ef;
   display: flex;
 }
@@ -228,7 +228,6 @@ section {
   font-size: 14px;
   color: rgba(96, 112, 255, 1);
   border-radius: 5px;
-  border: 0px;
 }
 
 .project-2 {
@@ -240,7 +239,7 @@ section {
   padding: 16px;
   gap: 12px;
   position: absolute;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1ef;
 }
 
@@ -253,7 +252,7 @@ section {
   padding: 16px;
   gap: 12px;
   position: absolute;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1ef;
 }
 
@@ -266,7 +265,7 @@ section {
   padding: 16px;
   gap: 12px;
   position: absolute;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1ef;
 }
 
@@ -286,6 +285,7 @@ section {
   font-weight: 400;
   font-size: 15px;
 }
+
 .multi-post {
   width: 295px;
   height: 80px;
@@ -310,6 +310,7 @@ section {
 .radio {
   background: rgb(79, 80, 82);
 }
+
 .canopy-1 {
   margin-top: -5%;
 }
