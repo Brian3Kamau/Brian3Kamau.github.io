@@ -1,8 +1,7 @@
 body {
   display: grid;
-  height: 786.2vh;
+  height: 5433.5px;
   justify-content: center;
-  border: 1px solid;
   width: 375px;
   align-items: flex-start;
   margin-left: 40%;
@@ -207,10 +206,10 @@ section {
   margin-left: 2.5%;
   border-radius: 16px;
   padding-left: 16px;
-  padding-right: 16px;
+  padding: 16px;
   position: absolute;
-  background: #fff;
-  border: 1px solid #dfe1ef;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(223, 225, 230, 1);
   display: flex;
 }
 
@@ -228,32 +227,34 @@ section {
   font-size: 14px;
   color: rgba(96, 112, 255, 1);
   border-radius: 5px;
+  border: none;
+  background: rgba(235, 235, 255, 1);
 }
 
 .project-2 {
   width: 90%;
   height: 552px;
-  margin-top: 180%;
+  margin-top: 190%;
   border-radius: 16px;
   margin-left: -4%;
   padding: 16px;
   gap: 12px;
   position: absolute;
-  background: #fff;
-  border: 1px solid #dfe1ef;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(223, 225, 230, 1);
 }
 
 .project-3 {
   width: 90%;
   height: 552px;
-  margin-top: 30%;
+  margin-top: 35%;
   margin-left: -5%;
   border-radius: 16px;
   padding: 16px;
   gap: 12px;
   position: absolute;
-  background: #fff;
-  border: 1px solid #dfe1ef;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(223, 225, 230, 1);
 }
 
 .project-4 {
@@ -265,8 +266,8 @@ section {
   padding: 16px;
   gap: 12px;
   position: absolute;
-  background: #fff;
-  border: 1px solid #dfe1ef;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(223, 225, 230, 1);
 }
 
 .lang-btn-ul {
@@ -276,14 +277,23 @@ section {
   justify-content: space-between;
   gap: 12px;
   margin-left: -6%;
-  margin-top: 0%;
+  margin-top: -1%;
 }
 
-.prjct-text {
+.prjct-text-m {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  margin-top: -3%;
+}
+
+.prjct-text-t {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 2%;
 }
 
 .multi-post {
@@ -293,7 +303,8 @@ section {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  margin-top: 3%;
+  margin-top: 1%;
+  color: rgba(23, 43, 77, 1);
 }
 
 .radio-btns {
@@ -301,6 +312,8 @@ section {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
+  margin-bottom: 2%;
+  margin-top: -2%;
 }
 
 .back-end {
@@ -308,11 +321,16 @@ section {
 }
 
 .radio {
-  background: rgb(79, 80, 82);
+  background: rgba(193, 199, 208, 0);
 }
 
 .canopy-1 {
   margin-top: -5%;
+  color: rgba(52, 69, 99, 1);
+}
+
+.canopy {
+  color: rgba(52, 69, 99, 1);
 }
 
 .about-myself {
@@ -477,12 +495,9 @@ section {
   margin-left: 30%;
 }
 
-#home:hover {
-  color: rgb(252, 115, 3);
-}
-
 .btn:hover {
-  border: 2px solid #6070ff;
+  background: #6070ff;
+  color: rgba(255, 255, 255, 1);
 }
 
 #in-touch-btn {
