@@ -230,6 +230,11 @@ section {
   background: rgba(235, 235, 255, 1);
 }
 
+#prjct-img-1 {
+  margin-left: 4%;
+  width: 100%;
+}
+
 .project-2 {
   width: 90%;
   height: 552px;
