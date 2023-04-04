@@ -523,6 +523,7 @@ section {
   float: right;
   margin-top: -12%;
 }
+
 /* collaborative tsk strts here  */
 .form-section {
   display: flex;
@@ -576,7 +577,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.message{
+.message {
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 12px 16px;
@@ -587,6 +588,7 @@ section {
   font-weight: 400px;
   font-family: "Poppins", sans-serif;
 }
+
 .form-btn {
   border: 1px solid #cfd8dc;
   height: 44px;
@@ -600,4 +602,21 @@ section {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.enter-email {
+  border-radius: 8px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  height: 48px;
+  width: 327px;
+
+  /* color: #172b4d; repeated color in your style here at line 611 also */
+  line-height: 20px;
+  display: flex;
+  border: 0;
 }
