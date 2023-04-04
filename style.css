@@ -435,6 +435,15 @@ section {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
+  border: 0;
+}
+
+.name-email::placeholder {
+  position: relative;
+  left: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(23, 43, 77, 1);
 }
 
 #email {
@@ -455,7 +464,7 @@ section {
 
 #txt-message::placeholder {
   position: relative;
-  bottom: 50px;
+  left: 15px;
 }
 
 .button {
@@ -513,4 +522,71 @@ section {
   margin-right: 23%;
   float: right;
   margin-top: -12%;
+}
+/* collaborative tsk strts here  */
+.form-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./images/Form\ background-1.jpg);
+  background-repeat: no-repeat;
+  height: 779px;
+  margin-top: 310%;
+}
+
+.form-header {
+  width: 810px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.contact-form p {
+  width: 327px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 10px;
+  color: #ebebff;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-name {
+  border: 1px solid #cfd8dc;
+  height: 48px;
+  width: 327px;
+  border-radius: 8px;
+  padding-left: 16px;
+  margin-bottom: 16px;
+  color: #172b4d;
+  font-size: 17px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+.form-btn {
+  border: 1px solid #cfd8dc;
+  height: 44px;
+  width: 142px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  color: #6070ff;
+  font-size: 17px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }

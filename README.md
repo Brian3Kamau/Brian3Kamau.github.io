@@ -24,7 +24,7 @@
 
 # 📖 MyPortfoli Project <a name="about-project"></a>
 
-**My Portfolio Project** is a is a third-day Microverse Project to enable the students begin building their portfolio from the very beginning of their studies, and continue to edit it and update it as they progress with their studies.
+**My Portfolio Project** is a is a third-day Microverse Project to enable the students begin building their portfolio from the very beginning of their studies, and continue to edit it and update it as they progress with their studies..
 
 ## 🛠 Built With <a name="built-with"></a>
 

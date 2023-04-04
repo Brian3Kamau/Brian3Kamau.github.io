@@ -252,7 +252,7 @@
             </div>
 
         </div>
-         <div id="contact-me">
+         <!-- <div id="contact-me">
             <h2 id="contact-me-h2">Contact me</h2>
             <p id="contact-me-text">If you have and application you <br> 
                 are interested in developing, a <br> 
@@ -260,22 +260,28 @@
                 project that needs coding. <br>
                 I'd love to help with it.
             </p>
-
-            <form action="">
-              <input type="text"  required placeholder="Lorem Ipsum" class="name-email"> <br>
-              <input type="email" required placeholder="loremipsum@gmail.com" class="name-email" id="email"> <br>
-              <input type="text" required placeholder="Write your message here..." id="txt-message"> <br>   
-              <button class="button btn-border" id="in-touch-btn">Get in touch</button>
+            The Code for the Form starts here below
+            <form action="https://formspree.io/f/xjvdaonp" method="post" id="contact-form">
+              <input type="text"  required placeholder="Lorem Ipsum" class="name-email" maxlength="30" id="user-name" name="user_name"> <br>
+              <input type="email" name="email" required placeholder="loremipsum@gmail.com" class="name-email" id="email"> <br>
+              <textarea name="textarea" placeholder="Write your message here..." id="txt-message"  maxlength="500" required cols="30" rows="10"></textarea>
+              <button type="submit" class="button btn-border" id="in-touch-btn">Get in touch</button>
               </form>
               <img src="./images/Ellipse 5-base.svg" alt="eclipse-5" id="eclipse-5">
               <span class="b-img"></span>
               <a href="#"><img src="./images/Home indicator.svg" alt="home-idicator" id="home"></a>
           </div> 
-      </div>
+      </div> -->
+    </section>
+    <section class="form-section">   
+      <strong class="form-header">Contact me</strong>   
+      <div class="contact-form">     
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I'd love to help with it!</p>       
+        <form class="contact-me" action="">         
+          <input class="input-name" type="text" maxlength="30" placeholder="Enssah" required>         
+          <button class="form-btn" type="submit" >Get in touch</button>       
+        </form>   
+      </div> 
     </section>
   </body>
 </html>
-
-
-
-
