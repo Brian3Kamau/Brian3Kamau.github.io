@@ -614,8 +614,6 @@ section {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   height: 48px;
   width: 327px;
-
-  /* color: #172b4d; repeated color in your style here at line 611 also */
   line-height: 20px;
   display: flex;
   border: 0;
