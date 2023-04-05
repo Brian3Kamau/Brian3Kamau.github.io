@@ -398,6 +398,8 @@ section {
 }
 
 #contact-me {
+  display: flex;
+  flex-direction: column;
   width: 375px;
   height: 752px;
   margin-top: 54.8%;
@@ -412,7 +414,7 @@ section {
   font-size: 40px;
   color: rgba(255, 255, 255, 1);
   text-align: center;
-  padding-top: 103px;
+  margin-top: 24%;
 }
 
 #contact-me-text {
@@ -422,7 +424,8 @@ section {
   font-size: 20px;
   text-align: center;
   color: rgba(235, 235, 255, 1);
-  padding-top: 100;
+  margin-top: -6%;
+  margin-bottom: 10%;
 }
 
 .name-email {
@@ -435,6 +438,15 @@ section {
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
+  border: 0;
+}
+
+.name-email::placeholder {
+  position: relative;
+  left: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(23, 43, 77, 1);
 }
 
 #email {
@@ -442,8 +454,8 @@ section {
 }
 
 #txt-message {
-  width: 87%;
-  height: 140px;
+  width: 73%;
+  height: 135px;
   border-radius: 8px;
   margin-left: 5%;
   margin-top: 3%;
@@ -451,11 +463,11 @@ section {
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
+  padding: 15px 38px 15px 16px;
 }
 
 #txt-message::placeholder {
   position: relative;
-  bottom: 50px;
 }
 
 .button {
@@ -513,4 +525,19 @@ section {
   margin-right: 23%;
   float: right;
   margin-top: -12%;
+}
+
+#ellipse-5 {
+  width: 10%;
+  height: 10%;
+  margin-left: 72%;
+  margin-top: 165%;
+  position: absolute;
+}
+
+#ellipse-3 {
+  width: 50px;
+  margin-left: 87%;
+  margin-top: 9%;
+  position: absolute;
 }
