@@ -722,17 +722,21 @@ section {
   }
 
   #multi-post-2 {
-    margin-left: 5%;
     margin-top: -35%;
   }
 
   #radio-btns-2 {
-    margin-left: 5%;
     margin-top: -3%;
   }
 
-  #prjct-text-2 {
+  #multi-post-2,
+  #radio-btns-2,
+  #prjct-text-2,
+  #btn-border-2 {
     margin-left: 5%;
+  }
+
+  #prjct-text-2 {
     margin-top: 0;
     width: 438px;
   }
@@ -743,7 +747,6 @@ section {
   }
 
   #btn-border-2 {
-    margin-left: 5%;
     margin-top: 2%;
   }
 
@@ -866,7 +869,6 @@ section {
   #js-html-css-frames {
     display: flex;
     justify-content: space-between;
-
     height: 80px;
     width: 280px;
   }
