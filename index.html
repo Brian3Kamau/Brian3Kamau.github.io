@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section id="top-section">
+    <section id="nav-section">
       <div id="top-nav">
         <p id="time"><time>9:41</time></p>
         <nav class="navbar-icons">
@@ -39,7 +39,14 @@
             alt="battery-icon"
             id="battery"
           />
-        </nav>
+        </nav>  
+        <div class="desktop-only">
+          <ul class="desk-nav-link-ul">
+            <li class="desk-nav-link" ><a href="#" class="desk-nav-link" id="desk-nav-link-1">Portfolio</a> </li>
+            <li class="desk-nav-link" ><a href="#" class="desk-nav-link" id="desk-nav-link-2"> About</a></li>
+            <li class="desk-nav-link" ><a href="#" class="desk-nav-link" id="desk-nav-link-3"> Contact</a></li>
+          </ul>
+        </div>
         <nav class="logo-fa-icons">
           <a href="#" class="logo" id="logo-text">My Logo</a>
           <a href="#" id="hamburger" class="icon">
@@ -47,7 +54,9 @@
           </a>
         </nav>
       </div>
-      <section class="headline-section">
+    </section>
+    <section id="top-section">
+      <div class="headline-section">
         <div id="headline-container">
           <h1 id="header-text">
             I'm Brian.<br />
@@ -60,7 +69,7 @@
             what you see and have a project you need coded, dont hesitate to
             contact me.
           </p>
-          <p>
+          <p class="link">
             <a
               href="https://www.linkedin.com/feed/"
               id="contact-link"
@@ -87,7 +96,7 @@
             </a>
           </div>
         </div>
-      </section>
+      </div>
     </section>
 
    <!-- the next project code starts here -->
@@ -103,7 +112,7 @@
            <label for="" class="back-end 2015">2015</label>
           </div>
             <p class="prjct-text-t">
-              A daily selection of privately <br> personalized reads; no accounts or <br>
+              A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
           <div class="lang-btn lang-btn-ul">
@@ -113,47 +122,47 @@
              <li><button class="btn" >JavaScript</button></li>
             </ul>          
           </div>
-          <button class="button btn-border"><a href="#" class="button">See Project</a></button>
+          <button class="button btn-border" id="btn-border-1"><a href="#" class="button">See Project</a></button>
       </div>
       <div class="project-2" id="project-2">
        <div id="tonic-picture">
-         <img src="./images/Snapshoot Portfolio 2.svg" alt="snap-shot" class="img-project"/>
-         <p class="multi-post">Multi-Post<br>Stories </p>
-          <div class="radio-btns" >
+         <img src="./images/Snapshoot Portfolio 2.svg" alt="snap-shot" class="img-project" id="img-project-2"/>
+         <p class="multi-post" id="multi-post-2">Multi-Post Stories </p>
+          <div class="radio-btns" id="radio-btns-2">
             <label for="" class="canopy">CANOPY 
             <input type="radio" name="" id="" value="" class="radio" /> </label>
             <label for="" class="back-end">Back End Dev<input type="radio" name="" id="" value="" class="radio" /></label>
             <label for="" class="back-end 2015">2015</label>
           </div>
-          <p class="prjct-text-m">
-            A daily selection of privately <br> personalized reads; no accounts or <br>
+          <p class="prjct-text-m" id="prjct-text-2">
+            A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-        <div class="lang-btn lang-btn-ul">
+        <div class="lang-btn lang-btn-ul" id="lang-btn-2">
           <ul class="lang-btn-ul">
             <li><button class="btn" >HTML</button></li>
             <li><button class="btn" >CSS</button></li>
             <li><button class="btn" >JavaScript</button></li>
           </ul>          
         </div>
-        <button class="button btn-border"><a href="#" class="button">See Project</a></button>
+        <button class="button btn-border" id="btn-border-2"><a href="#" class="button">See Project</a></button>
         
       </div>
       <div class="project-3" id="project-3">
         <div id="tonic-picture">
-          <img src="./images/Snapshoot Portfolio 3.svg" alt="snap-shot" class="img-project"/>
-          <h2 class="tonic multi-post">Tonic</h2>
-          <div class="radio-btns canopy-1" >
+          <img src="./images/Snapshoot Portfolio 3.svg" alt="snap-shot" class="img-project" id="img-project-3"/>
+          <h2 class="tonic multi-post" id="tonic-3">Tonic</h2>
+          <div class="radio-btns canopy-1" id="radio-btns-3">
             <label for="" class="canopy">CANOPY 
             <input type="radio" name="" id="" value="" class="radio" /> </label>
             <label for="" class="back-end">Back End Dev<input type="radio" name="" id="" value="" class="radio" /></label>
             <label for="" class="back-end 2015">2015</label>
           </div>
-          <p class="prjct-text-t">
-            A daily selection of privately <br> personalized reads; no accounts or <br>
+          <p class="prjct-text-t" id="prjct-text-3">
+            A daily selection of privately personalized reads; no accounts or
             sign-ups required.
           </p>
-          <div class="lang-btn lang-btn-ul">
+          <div class="lang-btn lang-btn-ul" id="lang-btn-3">
             <ul class="lang-btn-ul">
               <li><button class="btn" >HTML</button></li>
               <li><button class="btn" >CSS</button></li>
@@ -165,30 +174,30 @@
       </div>
       <div class="project-4" id="project-4">
           <div id="tonic-picture">
-            <img src="./images/Snapshoot Portfolio 4.svg" alt="snap-shot" class="img-project"/>
-            <p class="multi-post">Multi-Post <br>Stories</p>
+            <img src="./images/Snapshoot Portfolio 4.svg" alt="snap-shot" class="img-project" id="img-project-4" />
+            <p class="multi-post" id="multi-post-4">Multi-Post Stories</p>
             <div class="radio-btns" >
-              <label for="" class="canopy">CANOPY 
+              <label for="" class="canopy" id="canopy-4">CANOPY 
                 <input type="radio" name="" id="" value="" class="radio" /> </label>
               <label for="" class="back-end">Back End Dev<input type="radio" name="" id="" value="" class="radio" /></label>
               <label for="" class="back-end 2015">2015</label>
             </div>
-            <p class="prjct-text-m">
-              A daily selection of privately <br> personalized reads; no accounts or <br>
+            <p class="prjct-text-m" id="prjct-text-4">
+              A daily selection of privately personalized reads; no accounts or
             sign-ups required.
              </p>
-              <div class="lang-btn lang-btn-ul">
+              <div class="lang-btn lang-btn-ul" id="lang-btn-4" >
                 <ul class="lang-btn-ul">
                   <li><button class="btn" >HTML</button></li>
                   <li><button class="btn" >CSS</button></li>
                   <li><button class="btn" >JavaScript</button></li>
                </ul>          
               </div>
-            <button class="button btn-border"><a href="#" class="button">See Project</a></button>
+            <button class="button btn-border" id="btn-border"><a href="#" class="button">See Project</a></button>
       </div>
       <div class="about-myself">
         <div class="about-me">
-          <h1 id="header-text">
+          <h1 id="about-header-text">
                 About Myself
           </h1>
           <p id="about-me-par">
@@ -199,12 +208,12 @@
                 and have a project you need coded, dont hesitate to
                 contact me.
           </p>
-          <p>
+          <p id="lts-connect">
             <a href="https://www.linkedin.com/feed/"
                   id="contact-link"
                   class="link">LET'S CONNECT</a>
           </p>
-          <div class="contact-icons">
+          <div class="contact-icons" id="cnt-icons">
               <a href="https://twitter.com/bk_rian"
                   ><img src="./images/twitter.svg" alt="twitter-icon"
               /></a>
@@ -222,10 +231,10 @@
               </a>
             </div>
             <button class="button btn-border" id="resume-btn"><a href="#" class="button">Get my resume</a></button>
-            <div>
+            <div class="languages-btn-s">
               <ul class="lang-frmwrk-ul" >
-                  <li><label for="" id="languages"> <b>Languages</b> 
-                  <select name="" id="">Languages   
+                  <li><label for="" id="languages-frmwrk-btns"> <b>Languages</b> 
+                  <select name="" id="select-lan">Languages   
                     <option value="" class="opt-btn"></option>
                     <option value="javaScript" class="opt-btn">JavaScript</option>
                     <option value="html" class="opt-btn">HTML</option>
@@ -234,30 +243,34 @@
                   </label></li>
               </ul>  
             </div>
-            <div>
-              <ul class="lang-frmwrk-ul" >
-                  <li><a href="" class="frm-btn"><img src="./images/Frame JS-frame.svg" alt="JavaScript-frame">  </a></li>
-                  <li><a href="" class="frm-btn"><img src="./images/Frame html.svg" alt="html-frame">  </a></li>
-                  <li><a href="" class="frm-btn"><img src="./images/Frame css.svg" alt="css-frame">  </a>   </li>
+            <div class="languages-frameworks">
+              <ul class="lang-frmwrk-ul" id="js-html-css-frames">
+                  <li id="js-frm"><a href="" class="frm-btn"><img src="./images/Frame JS-frame.svg" alt="JavaScript-frame" id="js-frm-img"> </a></li>
+                  <li id="desk-js-frm" class="desk-js-frm"><a href="" class="desk-frm-btn"><img src="./images-desktop/js-Frame.png" alt="JavaScript-frame" id="desk-js-frm-img"> </a></li>
+                  <li id="html-frm"><a href="" class="frm-btn"><img src="./images/Frame html.svg" alt="html-frame">  </a></li>
+                  <li id="desk-html-frm" class="desk-js-frm" ><a href="" class="desk-frm-btn"><img src="./images-desktop/html-Frame.png" alt="html-frame" id="desk-js-frm-img-1">  </a></li>
+                  <li id="css-frm" ><a href="" class="frm-btn"><img src="./images/Frame css.svg" alt="css-frame">  </a>   </li>
+                  <li id="desk-css-frm" class="desk-js-frm"><a href="" class="desk-frm-btn"><img src="./images-desktop/Css-Frame.png" alt="css-frame" id="desk-js-frm-img-2">  </a>   </li>
                   <li></li>
               </ul>
             </div> 
             <div class="frameworks">
               <ul class="lang-frmwrk-ul">
-                <li><a href="" class="frameworks"> <b>Frameworks </b><b>&gt;</b> </a> <br>
+                <li><a href="" class="frameworks" id="frame"> <b>Frameworks </b><b>&gt;</b> </a> <br>
                   <img src="./images/Seperator-line.svg" alt="seperator"></li>
-                <li><a href="" class="frameworks skills"> <b>Skills</b><b>&gt;</b></a>
-                <img src="./images/Seperator-line.svg" alt="seperator"></li>
+                <li><a href="" class="frameworks skills" id="skills"> <b>Skills</b><b>&gt;</b></a>
+                <img src="./images/Seperator-line.svg" alt="seperator" id="skills-img"></li>
               </ul>
             </div>
         </div>
         <div id="contact-me">
           <img src="./images/Ellipse 3.png" alt="eclipse-3" id="ellipse-3">
+          <img src="./images-desktop/Desk-Ellipse.png" class="desk-ellipse" alt="eclipse-3" id="desk-ellipse-5">
             <h2 id="contact-me-h2">Contact me</h2>
-            <p id="contact-me-text">If you have and application you <br> 
-                are interested in developing, a <br> 
-                feature that you need built or a <br>
-                project that needs coding. <br>
+            <p id="contact-me-text">If you have and application you 
+                are interested in developing, a 
+                feature that you need built or a
+                project that needs coding.
                 I'd love to help with it.
             </p>
             <!-- The Pair Programing code starts here below -->
