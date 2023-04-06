@@ -19,6 +19,7 @@ body {
 
 #top-section {
   margin-top: 8.5%;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 section {
@@ -26,10 +27,6 @@ section {
   height: 630px;
   width: 375px;
   border-bottom-left-radius: 85px;
-}
-
-#top-section {
-  background: rgba(255, 255, 255, 0.5);
 }
 
 #logo {
@@ -602,7 +599,7 @@ section {
 
   .navbar-icons,
   .blue-color,
-  icon {
+  .icon {
     display: none;
   }
 
@@ -951,6 +948,7 @@ section {
     margin-top: -7%;
     margin-left: 20%;
   }
+
   .name-email {
     width: 60%;
     align-self: center;
@@ -991,7 +989,6 @@ section {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    text-decoration: none;
   }
 
   .desk-nav-link {
@@ -1007,6 +1004,7 @@ section {
   .desk-nav-link-ul :hover {
     background: rgba(96, 112, 255, 1);
   }
+
   #home {
     display: none;
   }
