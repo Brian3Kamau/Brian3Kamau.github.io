@@ -439,8 +439,8 @@ section {
   height: 752px;
   margin-top: 54.8%;
   border-top-left-radius: 85px;
-  background: url(./images-desktop/contact\ form\ background\ shapes@2x.png)
-    rgba(96, 112, 255, 1);
+  background: url(./images-desktop/contact\ form\ background\ shapes@2x.png);
+  background-color: rgba(96, 112, 255, 1);
 }
 
 #contact-me-h2 {
@@ -622,9 +622,8 @@ section {
   #top-section {
     width: 1440px;
     height: 916px;
-    margin-top: -2%;
     display: flex;
-    margin-top: 6%;
+    margin-top: 5%;
   }
 
   .headline-section {
@@ -886,10 +885,6 @@ section {
     margin-left: -11%;
   }
 
-  #lts-connect {
-    margin-left: 10%;
-  }
-
   #about-me-par {
     width: 447px;
     height: 102px;
@@ -979,7 +974,7 @@ section {
   #contact-me {
     width: 1440px;
     height: 846px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-top: 650px;
     position: absolute;
   }
