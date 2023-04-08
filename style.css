@@ -1,9 +1,8 @@
 body {
   display: grid;
-  height: 6433.5px;
-  justify-content: center;
   width: 375px;
-  align-items: flex-start;
+  margin-left: 0;
+  margin-right: 0;
   background: #e5e5e5;
   max-width: 100%;
 }
@@ -19,7 +18,7 @@ body {
 
 #top-section {
   margin-top: 8.5%;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
 }
 
 section {
@@ -131,7 +130,8 @@ section {
 }
 
 .headline-section {
-  background-image: url(./images/Background\ image.png.jpeg);
+  background-image: url(./images-desktop/Header\ bg.svg);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .link :hover {
@@ -145,7 +145,6 @@ section {
 }
 
 .top-nav {
-  overflow: hidden;
   position: relative;
   height: 90px;
   background: rgba(255, 255, 255, 1);
@@ -439,7 +438,6 @@ section {
   height: 752px;
   margin-top: 54.8%;
   border-top-left-radius: 85px;
-  background: url(./images-desktop/contact\ form\ background\ shapes@2x.png);
   background-color: rgba(96, 112, 255, 1);
 }
 
@@ -553,8 +551,8 @@ section {
 }
 
 #in-touch-btn {
-  margin-top: 4%;
-  margin-left: 5%;
+  margin-top: 3%;
+  margin-left: 27%;
 }
 
 #eclipse-5 {
@@ -592,8 +590,10 @@ section {
     margin-top: 0;
     margin-right: 0;
     margin-left: 2%;
-    max-width: 100%;
     height: 100%;
+    width: 1440px;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   #nav-section {
@@ -631,7 +631,8 @@ section {
     width: 100%;
     justify-content: center;
     border-bottom-left-radius: 95px;
-    background-image: url(./images-desktop/background.png);
+    background-image: url(./images-desktop/Header\ bg.svg);
+    background-color: rgba(255, 255, 255, 1);
   }
 
   #contact-link-1 {
@@ -977,6 +978,8 @@ section {
     margin-left: 0;
     margin-top: 650px;
     position: absolute;
+    background: url(./images-desktop/contact\ form\ background\ shapes@2x.png);
+    background-color: rgba(96, 112, 255, 1);
   }
 
   #contact-me-h2 {
