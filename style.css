@@ -11,7 +11,7 @@ body {
   display: flex;
   width: 375px;
   height: 150px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 1);
   margin-bottom: 0;
   border-radius: 0;
 }
