@@ -37,7 +37,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Click here for live video Demo](https://www.youtube.com/watch?v=QcZKsbgsLa4)
+- [Click here for live video Demo]( Add the deployed Link in here )
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,6 +119,6 @@ I would like to thank the microverse community, especially the code editors who 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Brian3Kamau/Hello-Microverse-Project/pull/1/files#diff-8c8919216182c2f73954fc4c038407f3bb66c8740d3df3d12a5114356e5a775c) licensed.
+This project is [MIT](https://github.com/Brian3Kamau/My-Portfolio/blob/main/LICENCE.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
