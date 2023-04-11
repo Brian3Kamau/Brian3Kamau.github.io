@@ -11,7 +11,7 @@ body {
   display: flex;
   width: 375px;
   height: 150px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 1);
   margin-bottom: 0;
   border-radius: 0;
 }
@@ -128,7 +128,7 @@ section {
   margin-right: 180.83px;
   width: 200px;
 }
-.contact-icons ul{
+.contact-icons ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -608,8 +608,7 @@ section {
     margin-bottom: -10%;
   }
 
-  #time,
-  #hamburger {
+  .logo-fa-icons {
     display: none;
   }
 
@@ -1053,26 +1052,35 @@ section {
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-
   }
 
   .desk-nav-link {
     list-style-type: none;
+    align-self: flex-end;
   }
 
   .desk-nav-link-ul {
     display: flex;
     justify-content: space-between;
-    margin-left: -10%;
+    margin-top: 4%;
+    margin-left: 31%;
   }
-  .desc-nav1{
-    margin-left: 0;
+
+  .desc-nav1 {
+    display: flex;
+    margin-left: -44.3%;
     margin-right: 0;
     margin-top: 0;
-    height: 48px;
+    width: 95%;
+    height: 56px;
     position: fixed;
     background-color: #fff;
     z-index: 1;
+  }
+
+  #nav-logo-text {
+    margin-top: 0;
+    background: rgba(255, 255, 255, 0.5);
   }
 
   .desk-nav-link-ul :hover {
