@@ -26,27 +26,17 @@
   <body>
     <section id="nav-section">
       <div id="top-nav">
-        <p id="time"><time>9:41</time></p>
-        <nav class="navbar-icons">
-          <img
-            src="./images/Cellular-connection.jpg"
-            alt="cellular-connection-icon"
-            id="cellular"
-          />
-          <img src="./images/wifi-icon.svg" alt="wifi-icon" id="wifi-icon" />
-          <img
-            src="./images/battery-icon.jpg"
-            alt="battery-icon"
-            id="battery"
-          />
-        </nav>  
         <div class="desktop-only">
+          <nav class="desc-nav1"> 
+            <a href="#" class="logo" id="nav-logo-text">My Logo</a>
           <ul class="desk-nav-link-ul">
-            <li class="desk-nav-link" ><a href="#" class="desk-nav-link" id="desk-nav-link-1">Portfolio</a> </li>
-            <li class="desk-nav-link" ><a href="#" class="desk-nav-link" id="desk-nav-link-2"> About</a></li>
-            <li class="desk-nav-link" ><a href="#" class="desk-nav-link" id="desk-nav-link-3"> Contact</a></li>
+            <li class="desk-nav-link" ><a href="#top-section" class="desk-nav-link" id="desk-nav-link-1">Portfolio</a> </li>
+            <li class="desk-nav-link" ><a href="#works-section" class="desk-nav-link" id="desk-nav-link-2"> About</a></li>
+            <li class="desk-nav-link" ><a href="#contact-me" class="desk-nav-link" id="desk-nav-link-3"> Contact</a></li>
           </ul>
+         </nav>
         </div>
+     
         <nav class="logo-fa-icons">
           <a href="#" class="logo" id="logo-text">My Logo</a>
           <a href="#" id="hamburger" class="icon">
@@ -69,7 +59,7 @@
             what you see and have a project you need coded, dont hesitate to
             contact me.
           </p>
-          <p class="link-1">
+          <h3 class="link-1">
             <a
               href="https://www.linkedin.com/feed/"
               id="contact-link-1"
@@ -77,27 +67,18 @@
             >
               LET'S CONNECT</a
             >
-          </p>
-          <div class="contact-icons">
-            <a href="https://twitter.com/bk_rian"
-              ><img src="./images/twitter.svg" alt="twitter-icon"
-            /></a>
-            <a href="https://www.linkedin.com/feed/"
-              ><img src="./images/in.png.jpeg" alt="linked-icon" />
-            </a>
-            <a href="https://github.com/Brian3Kamau"
-              ><img src="./images/M.png.jpeg" alt="M-icon" />
-            </a>
-            <a href="https://github.com/Brian3Kamau"
-              ><img src="./images/github.png.jpeg" alt="github-icon" />
-            </a>
-            <a href="https://www.google.com"
-              ><img src="./images/fing.png.jpeg" alt="fng-icon" />
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
+          </h3>
+    
+        <ul class="contact-icons">
+          <li> <a href="https://twitter.com/bk_rian"><img src="./images/twitter.svg" alt="twitter-icon"/></a></li>
+          <li>  <a href="https://www.linkedin.com/feed/"><img src="./images/in.png.jpeg" alt="linked-icon" /></a></li>
+          <li> <a href="https://github.com/Brian3Kamau"><img src="./images/M.png.jpeg" alt="Mail-icon" /></a></li>
+          <li><a href="https://github.com/Brian3Kamau"><img src="./images/github.png.jpeg" alt="github-icon" /></a></li> 
+          <li><a href="https://www.google.com"><img src="./images/fing.png.jpeg" alt="fng-icon"/></a></li> 
+        </ul>
+    </div>
+  </div>
+</section>
 
    <!-- the next project code starts here -->
    <section class="works-section">
@@ -275,8 +256,11 @@
             </p>
             <!-- The Pair Programing code starts here below -->
             <form action="https://formspree.io/f/xjvdaonp" method="post" id="contact-form">
+              <label for="user-name" hidden>Your Name</label>
               <input type="text"  required placeholder="Your Name" class="name-email" maxlength="30" id="user-name" name="user_name">
+              <label for="email" hidden> Your Email</label>
               <input type="email" name="email" required placeholder="Your Email" class="name-email" id="email">
+              <label for="txt-message" hidden>Your Message</label>
               <textarea name="textarea" placeholder="Write your message here..." id="txt-message"  maxlength="500" required cols="10" rows="7"></textarea>
               <button type="submit" class="button btn-border" id="in-touch-btn">Get in touch</button>
               </form>
