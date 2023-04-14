@@ -33,7 +33,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **1. h1 Should be used for the Title**
-- **2. rgb or any other color code to be used in the css styling**
+- **2. rgb or any other color code to be used in the css styling** ##[ Click here for Loom Vide walkthrough to this Project](https://www.loom.com/share/98d6192b39604663ae348a7e0ba5de56)
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
